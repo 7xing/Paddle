@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 set -e
-wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+wget --no-check-certificate https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 tar zxf cifar-10-python.tar.gz
 rm cifar-10-python.tar.gz
 rm -rf cifar-out/*
